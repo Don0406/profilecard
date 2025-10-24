@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -66,3 +67,73 @@ button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: #002b86;
 }
+=======
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #417be7, #003375); 
+    display: flex; /* Added to enable flexbox centering */
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 65%;
+    border: 6px solid #9c9c9c; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b2a2a; 
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    font-style: light;
+    color: #666; 
+    margin: 7px 0;
+}
+
+button {
+    background-color: #2196F3; 
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: transform 0.5s ease, background-color 0.7s ease; 
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #002b86;
+}
+>>>>>>> fffc9a24f6a5234c43f7c2ea8b53c87c035015e7
